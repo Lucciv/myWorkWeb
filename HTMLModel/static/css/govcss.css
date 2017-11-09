@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/**
+ * Content
+ * @authors Duhe (lucciv@163.com)
+ * @date    2017-04-25 09:19:55
+ * @version Sublime Text 3
+ */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   /*font-size: 100%;*/
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   width: 100%;
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+a{
+  text-decoration: none;
+}
+a,p,span,h1,h2,h3,h4,h5{
+    font-family: "Î¢ÈíÑÅºÚ",Microsoft YaHei;
+    font-size: 14px;
+    color: #666;
+}
+/*END css reset*/
+.content{
+    width: 100%;
+    overflow: hidden;
+}
+.govmain{
+    width: 800px;
+    overflow: hidden;
+    padding: 0 100px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+.contentT1{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contentT2{
+    width: 100%;
+    color: #fff;
+    padding: 30px 0 10px 0;
+    font-size: 20px;
+    float: left;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+/*== Gov list ==*/
+.govListBox
+{
+    float: left;
+    overflow: hidden;
+
+    width: 100%;
+}
+.govListBox li
+{
+    position: relative;
+
+    padding-top: 10px;
+    padding-left: 14px;
+}
+.govListDot
+{
+    position: absolute;
+    top: 15px;
+    +top: 18px;
+    left: 0;
+
+    display: block;
+
+    width: 4px;
+    height: 4px;
+
+    background-color: #666;
+}
+.govListTime
+{
+    position: absolute;
+    top: 10px;
+    +top: 14px;
+    right: 0;
+}
+.govListText:hover{ text-decoration: underline; }
+/*== ENDGov list ==*/
+
+/*== Gov TitleBox ==*/
+.govTitleBox
+{
+    float: left;
+    overflow: hidden;
+
+    width: 100%;
+    height:30px;
+
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    background-color: #ccceec;
+    position: relative;
+}
+.govTitleText
+{
+    font-size: 18px;
+    font-weight: bold;
+
+    position: absolute;
+    top: 7px;
+    left: 0;
+
+    padding: 0 10px;
+
+    color: #fff;
+    background-color: red;
+}
+.govTitleMore
+{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+/*== ENDGov TitleBox ==*/
+
+/*== Gov Link ==*/
+.govLinkBox
+{
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.govLinkBox li
+{
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+    +margin-right: 12px;
+}
+.govLinkText
+{
+    position: relative;
+    padding-right: 10px;
+}
+.govLinkText:hover
+{
+    text-decoration: underline;
+}
+.govLinkLine
+{
+    position: absolute;
+    top: 3px;
+    +top: 4px;
+    right: 0;
+    display: block;
+    width: 1px;
+    height: 13px;
+    background-color: #666;
+}
+/*== ENDGov Link ==*/
+
+/*== Gov PicBox ==*/
+.govPicBox
+{
+    float: left;
+    overflow: hidden;
+    width: 300px;
+    padding: 25px;
+    border: 3px solid #fff;
+}
+/*a link*/
+.govPicL
+{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 25px;
+    margin-bottom: 30px;
+    background-color: #dbdbdb;
+}
+/*image*/
+.govPicBox img
+{
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+/*text*/
+.govPicT
+{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+/*== ENDGov PicBox ==*/
+
+/*== Gov CurrentBox ==*/
+.currentBox{
+  width: 100%;
+  overflow: hidden;
+  float: left;
+}
+.currentBox a{
+    color: red;
+}
+/*== ENDGov CurrentBox ==*/
