@@ -1,52 +1,6 @@
 # myWorkWeb
 
-1.RoyalSlider 
-
-使用步骤
-
-1、引入以下的js和css文件
-<link href="royalslider.css" rel="stylesheet">
-<script src="jquery-1.8.3.min.js"></script>
-<script src="jquery.royalslider.min.js"></script>
-<link href="reset.css" rel="stylesheet">
-<link href="rs-default.css" rel="stylesheet">
-
-2.在head标签中加入以下js代码
-<script>
-    jQuery(document).ready(function($) {
-        $('#video-gallery').royalSlider({
-            arrowsNav: false,
-            fadeinLoadedSlide: true,
-            controlNavigationSpacing: 0,
-            controlNavigation: 'thumbnails',
-  
-            thumbs: {
-                autoCenter: false,
-                fitInViewport: true,
-                orientation: 'vertical',
-                spacing: 0,
-                paddingBottom: 0
-            },
-            keyboardNavEnabled: true,
-            imageScaleMode: 'fill',
-            imageAlignCenter: true,
-            slidesSpacing: 0,
-            loop: false,
-            loopRewind: true,
-            numImagesToPreload: 3,
-            video: {
-                autoHideArrows: true,
-                autoHideControlNav: false,
-                autoHideBlocks: true
-            },
-            autoScaleSlider: true,
-            autoScaleSliderWidth: 960,
-            autoScaleSliderHeight: 450
-        });
-    });
-</script>
-
-3.参数配置
+1.RoyalSlider 参数配置
 参数名	参数说明	可选值	默认值
 autoScaleSlider	是否基于基础宽度自动更新滑块高度	true或false	false
 autoScaleSliderWidth	幻灯片基本宽度	整数	800
