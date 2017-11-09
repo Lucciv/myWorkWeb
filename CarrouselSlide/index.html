@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gb2312">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>CarrouselSlide</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="static/css/content.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+   <div class="content">
+      <div class="main">
+
+          <!-- CarrouselSlide -->
+          <div class="slideGroup">
+            <div class="parBd">
+              <div class="slideBox">
+                <a class="sPrev" href="javascript:void(0)"></a>
+                <ul>
+                  <li>
+                    <div class="pic"><a href="#" target="_blank">
+                      <img src="static/images/1.png" width="177px" height="133px" />
+                    </a></div>
+                    <p class="title">This is Piece 1.</p>
+                  </li>
+                  <li>
+                    <div class="pic"><a href="#" target="_blank">
+                      <img src="static/images/2.png" width="177px" height="133px" />
+                    </a></div>
+                    <p class="title">This is Piece 2.</p>
+                  </li>
+                  <li>
+                    <div class="pic"><a href="#" target="_blank">
+                      <img src="static/images/3.png" width="177px" height="133px" />
+                    </a></div>
+                    <p class="title">This is Piece 3.</p>
+                  </li>
+                  <li>
+                    <div class="pic"><a href="#" target="_blank">
+                      <img src="static/images/4.png" width="177px" height="133px" />
+                    </a></div>
+                    <p class="title">This is Piece 4.</p>
+                  </li>
+                  <li>
+                    <div class="pic"><a href="#" target="_blank">
+                      <img src="static/images/5.png" width="177px" height="133px" />
+                    </a></div>
+                    <p class="title">This is Piece 5.</p>
+                  </li>
+                  <li>
+                    <div class="pic"><a href="#" target="_blank">
+                      <img src="static/images/6.png" width="177px" height="133px" />
+                    </a></div>
+                    <p class="title">This is Piece 6.</p>
+                  </li>
+                </ul>
+                <a class="sNext" href="javascript:void(0)"></a>
+              </div>
+            </div>
+          </div>
+          <!-- END CarrouselSlide -->
+
+      </div>
+   </div>
+
+  <!-- CarrouselSlide Js -->
+  <script type="text/javascript" src="static/js/jquery1.42.min.js"></script>
+  <script type="text/javascript" src="static/js/jquery.SuperSlide.2.1.1.js"></script>
+  <script type="text/javascript">
+    jQuery(".slideGroup .slideBox").slide({
+      mainCell:"ul",
+      vis:5,
+      prevCell:".sPrev",
+      nextCell:".sNext",
+      effect:"leftLoop",
+      autoPlay:"true"
+    });
+  </script>
+
+</body>
+</html>

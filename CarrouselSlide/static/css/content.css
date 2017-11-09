@@ -1,0 +1,163 @@
+@charset "gb2312";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*CSS Tools: Reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   /*font-size: 100%;*/
+   font: inherit;
+   vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   line-height: 1;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+a,p,span,h1,h2,h3,h4,h5
+{
+    /*font-family: "微软雅黑",Microsoft YaHei;*/
+    font-family: '宋体',SimSun;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2a2a2a;
+}
+/*END CSS Tools: Reset CSS*/
+
+/*-----------------------------------------------------*/
+/*Content*/
+.content
+{
+    width: 100%;
+}
+.main
+{
+    overflow: hidden;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*CarrouselSlide*/
+.slideGroup
+{
+    overflow: hidden;
+    width: 100%;
+}
+.slideGroup .parHd
+{
+    line-height: 30px;
+    position: relative;
+    height: 30px;
+    padding: 0 20px;
+}
+.slideGroup .parHd ul
+{
+    position: absolute;
+    top: -1px;
+    left: 20px;
+    float: left;
+    height: 32px;
+}
+.slideGroup .parHd ul li
+{
+    float: left;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.slideGroup .parHd ul li.on
+{
+    height: 30px;
+}
+/*焦点图的位置*/
+.slideGroup .slideBox
+{
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+    padding: 0 0 0 12px;
+}
+.slideGroup .sPrev,
+.slideGroup .sNext
+{
+    position: absolute;
+    top: 55px;
+    left: 5px;
+    display: block;
+    width: 10px;
+    height: 16px;
+    background: url(../images/prev.jpg) no-repeat;
+}
+.slideGroup .sNext
+{
+    right: 5px;
+    left: auto;
+    background: url(../images/next.jpg) no-repeat;
+}
+.slideGroup .parBd ul
+{
+    overflow: hidden;
+    zoom: 1;
+}
+.slideGroup .parBd ul li
+{
+    float: left;
+    overflow: hidden;
+    margin: 0 8px;
+    text-align: center;
+    display: inline;
+}
+.slideGroup .parBd ul li .pic
+{
+    text-align: center;
+}
+/*图像大小*/
+.slideGroup .parBd ul li .pic img
+{
+    display: block;
+    width: 177px;
+    height: 133px;
+    border: 1px solid #5f332b;
+}
+.slideGroup .parBd ul li .pic a:hover img
+{
+    border-color: red;
+}
+.slideGroup .parBd ul li .title
+{
+    line-height: 24px;
+}
+/*END CarrouselSlide*/
