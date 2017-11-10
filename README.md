@@ -16,7 +16,7 @@
 宽屏下拉菜单导航栏，可移动切换，是在`头部导航栏`里的   
 
 ## 5.CarrouselSlide
-![CarrouselSlide](https://github.com/Lucciv/myWorkWeb/blob/master/Pic/CarrouselSlide.png "CarrouselSlide")    
+![CarrouselSlide](https://github.com/Lucciv/myWorkWeb/blob/master/Pic/CarrouselSlide.png "CarrouselSlide")    
 幻灯片，可自动切换，是在`图片专栏` 里的   
 
 ## 6.Slider
