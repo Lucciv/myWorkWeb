@@ -1,0 +1,128 @@
+@charset "gb2312";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:0;
+}
+li{
+	list-style:none;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+	font-variant:normal;
+}
+sup{
+	vertical-align:text-top;
+}
+sub{
+	vertical-align:text-bottom;
+}
+input,textarea,select{
+	font-family:inherit;
+	font-weight:inherit;
+	font-size:100%;
+	line-height:1.2;
+	margin:0;
+}
+legend{
+	color:#000;
+}
+a{
+	text-decoration: none;
+}
+
+/*--主体--*/
+.content{
+	overflow: hidden;
+	width: 100%;
+}
+.main{
+	width: 1000px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+/*Slider2*/
+.sectionFocuspic{
+	width:600px;
+	height:350px;
+	overflow:hidden;
+	position:relative;
+	margin: 0 auto;
+}
+.sectionFocuspic ul li{
+	width: 100%;
+	position:absolute;
+	top:0;
+	left:600px;
+}
+.itemTitleBg{
+	width: 100%;
+	height:50px;
+	background-color:rgba(0,0,0,0.7);
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+.itemText{
+	display: block;
+	color:#FFF;
+	font-weight:normal;
+	font-size: 20px;
+	font-family:"微软雅黑";
+	position:absolute;
+	bottom: 15px;
+	left:20px;
+	z-index: 1;
+}
+.sectionFocuspic .controler{
+	position:absolute;
+	bottom:18px;
+	right:20px;
+}
+.sectionFocuspic .controler b{
+	background-image: url(../images/list-style.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 11px;
+	height: 11px;
+	float: left;
+	margin-left: 10px;
+	overflow: hidden;
+	text-indent:11px;
+}
+.sectionFocuspic .controler b.down{
+	background-image: url(../images/list-style-jh.png);
+}
+.prev,
+.next{
+	width:50px;
+	height:68px;
+	display:block;
+	position:absolute;
+	top:120px;
+}
+.sectionFocuspic .conPn .prev{
+	background-image: url(../images/button_prew.png);
+	background-repeat: no-repeat;
+	background-position: 10px 0;
+}
+.sectionFocuspic .conPn .prev:hover{
+	background-image: url(../images/button_prew_jh.png);
+}
+.sectionFocuspic .conPn .next{
+	right:5px;
+	background-image: url(../images/button_next.png);
+	background-repeat: no-repeat;
+	background-position: 10px 0;
+}
+.sectionFocuspic .conPn .next:hover{
+	background-image: url(../images/button_next_jh.png);
+}
+/*END Slider2*/
