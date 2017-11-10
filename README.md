@@ -5,3 +5,6 @@
 ## 2.RoyalSlider
 
 ## 3.Tabs
+
+## 4.booNav
+    头部导航栏宽屏下拉菜单Js
