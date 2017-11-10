@@ -20,5 +20,5 @@
 幻灯片，可自动切换，是在`图片专栏` 里的   
 
 ## 6.Slider
-![Slider](https://github.com/Lucciv/myWorkWeb/blob/master/Pic/Slider.png "Slider")    
-轮播图，简洁，无箭头，可自动切换，是在`新闻头条栏` 里的   
+![Slider](https://github.com/Lucciv/myWorkWeb/blob/master/Pic/Slider.png "Slider")    
+轮播图，简洁，无箭头，可自动切换，是在`新闻头条栏` 里的   
