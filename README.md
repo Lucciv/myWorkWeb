@@ -22,3 +22,7 @@
 ## 6.Slider
 ![Slider](https://github.com/Lucciv/myWorkWeb/blob/master/Pic/Slider.png "Slider")    
 轮播图，简洁，无箭头，可自动切换，是在`新闻头条栏` 里的   
+
+## 6.Slider2
+![Slider2](https://github.com/Lucciv/myWorkWeb/blob/master/Pic/Slider2.png "Slider2")    
+轮播图，有`箭头` 和 `轮播点`
