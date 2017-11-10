@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>booNav</title>
+<link href="static/css/content.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="content">
+    <div class="main">
+      <!-- booNav -->
+      <div class="head-nav">
+        <ul id="bnav">
+          <li>
+            <a href="#">中国政府1</a>
+          </li>
+          <li>
+            <a href="#">中国政府2</a>
+          </li>
+          <li>
+            <a href="#">中国政府3</a>
+          </li>
+          <li>
+            <a href="#">中国政府4</a>
+          </li>
+          <li>
+            <a href="#">中国政府5</a>
+          </li>
+          <li>
+            <a href="#">中国政府6</a>
+          </li>
+          <li>
+            <a href="#">中国政府7</a>
+          </li>
+        </ul>
+      </div>
+      <!-- subnav -->
+      <div id="subnav">
+        <!-- <div></div> -->
+        <!-- head-subnav -->
+        <div class="head-subnav">
+          <div class="headsubnavMain">
+            <p>1</p>
+          </div>
+        </div>
+        <!-- head-subnav -->
+        <div class="head-subnav">
+          <div class="headsubnavMain">
+            <p>2</p>
+          </div>
+        </div>
+        <!-- head-subnav -->
+        <div class="head-subnav">
+          <div class="headsubnavMain">
+            <p>3</p>
+          </div>
+        </div>
+        <!-- head-subnav -->
+        <div class="head-subnav">
+          <div class="headsubnavMain">
+            <p>4</p>
+          </div>
+        </div>
+        <!-- head-subnav -->
+        <div class="head-subnav">
+          <div class="headsubnavMain">
+            <p>5</p>
+          </div>
+        </div>
+        <!-- head-subnav -->
+        <div class="head-subnav">
+          <div class="headsubnavMain">
+            <p>6</p>
+          </div>
+        </div>
+        <!-- head-subnav -->
+        <div class="head-subnav">
+          <div class="headsubnavMain">
+            <p>7</p>
+          </div>
+        </div>
+      </div>
+      <!-- END booNav -->
+    </div>
+  </div>
+  <!-- booNav Js -->
+  <script src="static/js/jquery-1.8.3.min.js"></script>
+  <script src="static/js/jquery.tabso_yeso.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function($){
+  	$("#bnav").tabso({
+  	  cntSelect:"#subnav",
+  	  tabEvent:"mouseover",
+  	  tabStyle:"fade"
+  	});
+    });
+  </script>
+</body>
+</html>
