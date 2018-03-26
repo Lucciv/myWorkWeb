@@ -4,8 +4,8 @@
 常用的模板，如：`标题`、`列表`、`链接`、`专题图片`、`当前位置`等   
 
 ## 2.RoyalSlider
-![RoyalSlider](https://github.com/Lucciv/myWorkWeb/blob/master/Pic/RoyalSlider.png "RoyalSlider")   
-该模板可以创建包括文字、图片、视频的幻灯片效果，是用于`播放视频`的   
+![RoyalSlider](https://github.com/Lucciv/myWorkWeb/blob/master/Pic/RoyalSlider.png)   
+该模板可以创建包括文字、图片、视频的幻灯片效果，是用于`播放视频`的  
 
 ## 3.Tabs
 ![Tabs](https://github.com/Lucciv/myWorkWeb/blob/master/Pic/Tabs.png "Tabs")    

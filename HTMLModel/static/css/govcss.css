@@ -91,9 +91,9 @@ a,p,span,h1,h2,h3,h4,h5{
     margin-bottom: 20px;
 }
 /*== Gov list ==*/
-.govListBox
+.govListBox,.govListBox2
 {
-    float: left;
+    /*float: left;*/
     overflow: hidden;
 
     width: 100%;

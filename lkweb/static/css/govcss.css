@@ -1,0 +1,16 @@
+@charset "gb2312";
+/*css reset*/
+body{margin: 0 auto; font-family: "Microsoft YaHei UI","Î¢ÈíÑÅºÚ",\5FAE\8F6F\96C5\9ED1;font-size: 14px;}
+ul,li{margin: 0;padding: 0;list-style: none;}
+img{border:none;display: inline-block;}
+a,a:link,a:visited,a:hover{text-decoration: none;color: #333;font-family: "Microsoft YaHei UI","Î¢ÈíÑÅºÚ",\5FAE\8F6F\96C5\9ED1;font-size: 14px;}
+.fl{float: left;}
+.fr{float: right;}
+/*END css reset*/
+
+.govcontent{width: 100%;overflow: hidden;}
+.govmain{width: 1000px; overflow: hidden; margin: 0 auto;}
+
+/*Ê×Ò³*/
+/*´óÌå*/
+/*END Ê×Ò³*/
