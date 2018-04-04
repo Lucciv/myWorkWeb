@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/*css reset*/
+body{margin: 0 auto; font-family: "Microsoft YaHei UI","Î¢ÈíÑÅºÚ",\5FAE\8F6F\96C5\9ED1;font-size: 14px;}
+ul,li,p,a{margin: 0;padding: 0;list-style: none;}
+img{border:none;display: inline-block;}
+a,a:link,a:visited,a:hover{text-decoration: none;color: #333;font-family: "Microsoft YaHei UI","Î¢ÈíÑÅºÚ",\5FAE\8F6F\96C5\9ED1;font-size: 14px;}
+.fl{float: left;}
+.fr{float: right;}
+/*END css reset*/
+
+/*my css reset*/
+iframe{margin: 0;padding: 0;display: block;}
+h1,h2,h3,h4,h5,p,a,span{margin: 0;padding: 0;font-weight: normal;font-size: 14px;color: #555;}
+.mbNo{margin-bottom: 0;}
+.mb1{margin-bottom: 10px;}
+.mb2{margin-bottom: 20px;}
+.mb3{margin-bottom: 30px;}
+.mb4{margin-bottom: 40px;}
+/*END my css reset*/
+
+.content{width: 100%; overflow: hidden;}
+.govmain{width: 1000px; overflow: hidden; padding: 0 100px; margin: 0 auto; background-color: #ccc;}
+.contentT1{width: 100%; padding: 50px 0; text-align: center; color: #fff; font-size: 30px; font-weight: bold;}
+.contentT2{width: 100%; color: #fff; padding: 30px 0 10px 0; font-size: 20px; float: left; border-bottom: 1px solid #fff; margin-bottom: 20px;}
+
+/*== Govlist ==*/
+.govListBox{overflow: hidden;width: 100%;}
+.govListBox li{position: relative;padding-left: 14px;height: 25px;line-height: 25px;}
+.govListDot{position: absolute;top: 11px;left: 0;display: block;width: 4px;height: 4px;background-color: #666;}
+.govListTime{position: absolute;top: 0;right: 0;}
+.govListBox li a:hover{ text-decoration: underline; }
+/*== END Govlist ==*/
+
+/*== GovTitleBox ==*/
+.govTitleBox{overflow: hidden; width: 100%; height:40px; border-bottom: 1px solid #666;position: relative;}
+.govTitleText{font-size: 18px; font-weight: bold;}
+.govTitleMore{position: absolute; top: 6px; right: 10px;}
+/*== END GovTitleBox ==*/
+
+/*== GovLink ==*/
+.govLinkBox{min-width: 500px;}
+.govLinkBox li{float: left; overflow: hidden; margin-top: 13px;margin-right: 20px; }
+.govLinkBox a{position: relative; color: #333333; font-size: 14px;position: relative;display: block;padding-right: 20px;}
+.govLinkLine{display: inline-block; width: 1px; height: 16px; background-color: #000;position: absolute;top: 3px;right: 0;}
+.govLinkBox a:hover{color: orange;}
+/*== END GovLink ==*/
+
+/*== GovCurrentBox ==*/
+.currBox{height: 30px;width: 100%;overflow: hidden;}
+.currBox span,.currBox a{color: #333;font-size: 14px;}
+.currBox a{display: inline;color: red;}
+.currBox a:hover{color: orange;}
+/*== END GovCurrentBox ==*/
+
+/*== GovSearch ==*/
+.govSearch{width: 325px;height: 36px;background-color: skyblue;position: relative;float: left;}
+.govSearch input[type="text"]{width: 241px;height: 32px;border:1px solid #c0c3ca;float: left;}
+.govSearch input[type="button"]{width: 83px;height: 36px;border:none;position: absolute;top: 0;right: 0;color: #fff;font-size: 14px;cursor: pointer;background-color: #2d2f93;}
+/*== END GovSearch==*/
+
+/*== GovMNBox ==*/
+.govMNBox{display: block;width: 100%;overflow: hidden;}
+.govMNTitle{color: #333;font-size: 24px;margin-bottom: 10px;font-weight: bold;display: block;}
+.govMNText{color: #666;margin-bottom: 10px;display: block;line-height: 30px;+line-height: 32px; text-indent: 2em;}
+/*== END GovMNBox ==*/
+
+/*== GovPicBox ==*/
+.govPicBox{overflow: hidden; width: 350px; padding: 25px; border: 3px solid #fff;}
+.govPicL{display: block; float: left; width: 100px; min-height: 100px; margin: 0 25px 20px 25px; padding: 10px; background-color: #dbdbdb;}
+.govPicBox img{display: block; width: 70px; height: 70px; margin: 0 auto; margin-bottom: 10px; background-color: #fff;}
+.govPicT{display: block; overflow: hidden; width: 95%; text-align: center;}
+/*== END GovPicBox ==*/
+
+/*== GovLinkBut ==*/
+.govLinkButBox{overflow: hidden; width: 350px; padding: 25px; border: 3px solid #fff;}
+.govGeTx{display: block; width: 150px; height: 100px; line-height: 100px; border:1px solid #a7a8d4; position: relative; cursor: pointer;margin-bottom: 10px;}
+.govGeTx span{line-height: 22px; display: inline-block; width: 64px;color: #2d2f93;font-size: 16px; vertical-align: middle; text-align: center;}
+.govGeTx img{float: left;margin: 35px 15px 0 20px;}
+/*== END GovLinkBut ==*/
+
+/*== GovListPic ==*/
+.govLlPic{overflow: hidden; width: 500px; border: 3px solid #fff;padding-top: 20px;}
+.govLlPic a{display: block; width: 300px;height: 60px;background-color: #a7a8d4;margin: 0 auto;margin-bottom: 20px;}
+/*== END GovListPic ==*/
