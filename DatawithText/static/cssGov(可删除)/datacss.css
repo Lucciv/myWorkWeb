@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@charset "UTF-8";
+/*css reset*/
+body{margin: 0 auto; font-family: "Microsoft YaHei UI","微软雅黑",\5FAE\8F6F\96C5\9ED1;font-size: 14px;}
+ul,li,p,a{margin: 0;padding: 0;list-style: none;}
+img{border:none;display: inline-block;}
+a,a:link,a:visited,a:hover{text-decoration: none;color: #333;font-family: "Microsoft YaHei UI","微软雅黑",\5FAE\8F6F\96C5\9ED1;font-size: 14px;}
+.fl{float: left;}
+.fr{float: right;}
+/*END css reset*/
+
+/*my css reset*/
+iframe{margin: 0;padding: 0;display: block;}
+h1,h2,h3,h4,h5,p,a,span{margin: 0;padding: 0;font-weight: normal;font-size: 14px;color: #555;}
+.mbNo{margin-bottom: 0;}
+.mb1{margin-bottom: 10px;}
+.mb2{margin-bottom: 20px;}
+.mb3{margin-bottom: 30px;}
+.mb4{margin-bottom: 40px;}
+/*END my css reset*/
+
+/*DataJs*/
+.calandar{margin:0 auto;}
+.calandar .cal_left{width:1260px;background: url(../images/claner_bg.png) no-repeat top center;height: 430px;margin:0 auto;}
+.cal_left .cal_header{height: 40px;line-height: 40px;font-size: 14px;color:#ef7885;padding:0 15px;border-bottom:1px solid #dfded8;}
+.cal_left .cal_header ul{overflow: hidden;}
+.cal_left .cal_header li{float: left;color:#ef7885;padding-right: 55px;}
+.cal_left .cal_header li:last-child{padding-right: 0;}
+.cal_left .cal_header li.last{padding-right: 0;}
+.cal_left .cal_date{font-size: 12px;color:#4c4b4b;}
+.cal_left .cal_date ul{width:680px;margin-left: 120px;}
+.cal_left .cal_date li{float: left;width:97px;text-align: center;height: 32px;line-height: 32px;}
+.cal_left .cal_date a.on{background: url(../images/cal_01.png) no-repeat left center;cursor: pointer;width:30px;height: 32px;display: block;margin:0px auto;color:#4c4b4b;}
+.cal_left .cal_date .msg{top:5px;left:70px;border:2px solid #bda356;background-color:#c6a04b;font-size: 12px;width:183px;text-align:left;font-family: "é»‘ä½“";z-index: 99999;}
+.msg .msg_box{border-bottom: 2px solid #ffcab2;padding-bottom: 15px;}
+.msg .msg_header{font-size: 14px;}
+.msg p{line-height: 25px;height: 25px;padding:0 5px;}
+.msg .msg_box:last-child{border-bottom: 0;}
+.cal_right{float:right;width:1200px}
+.cal_right a img{display:block;float:left;}
+/*END DataJs*/

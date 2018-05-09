@@ -104,3 +104,9 @@ h1,h2,h3,h4,h5,p,a,span{margin: 0;padding: 0;font-weight: normal;font-size: 14px
 .govMapListBox{width: 100%;overflow: hidden;}
 .govMapListBox li{float: left;margin-right: 40px;white-space: nowrap;margin-bottom: 20px;}
 /*== END govList_Float ==*/
+
+/*govLogo*/
+.govLogo{display: block;width: 295px;height: 34px;position: relative;margin-top: 4px;}
+.govLogo img{position: absolute;top: 0;left: 0;}
+.govLogo span{position: absolute;top: 2px;left: 30px;color: #000;}
+/*END govLogo*/

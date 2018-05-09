@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@charset "UTF-8";
+/*css reset*/
+body{margin: 0 auto; font-family: "Microsoft YaHei UI","微软雅黑",\5FAE\8F6F\96C5\9ED1;font-size: 14px;}
+ul,li,p,a{margin: 0;padding: 0;list-style: none;}
+img{border:none;display: inline-block;}
+a,a:link,a:visited,a:hover{text-decoration: none;color: #333;font-family: "Microsoft YaHei UI","微软雅黑",\5FAE\8F6F\96C5\9ED1;font-size: 14px;}
+.fl{float: left;}
+.fr{float: right;}
+/*END css reset*/
+
+/*my css reset*/
+iframe{margin: 0;padding: 0;display: block;}
+h1,h2,h3,h4,h5,p,a,span{margin: 0;padding: 0;font-weight: normal;font-size: 14px;color: #555;}
+.mbNo{margin-bottom: 0;}
+.mb1{margin-bottom: 10px;}
+.mb2{margin-bottom: 20px;}
+.mb3{margin-bottom: 30px;}
+.mb4{margin-bottom: 40px;}
+/*END my css reset*/
+
+/*DataJs*/
+td,.p1,.p2,.i{font-family:arial;}
+table{border:0;}
+#cal{font-size: 12px; width: 434px; margin: 8px 0 0 15px; border: 1px solid #c3d9ff;}
+#cal #top{line-height: 29px; position: relative; height: 29px; padding-left: 70px; color: #003784; background: #e7eef8;}
+#cal #top select{font-size: 12px;}
+#cal #top input{padding: 0;}
+#cal ul#wk{height: 25px; margin: 0; padding: 0;}
+#cal ul#wk li{line-height: 25px; float: left; width: 60px; list-style: none; text-align: center;}
+#cal ul#wk li b{font-weight: normal; color: #c60b02;}
+#cal #cm{position: relative; clear: left; border-top: 1px solid #ddd; border-bottom: 1px dotted #ddd;}
+#cal #cm .cell{position: absolute; width: 42px; height: 36px; margin: 0 0 0 9px; text-align: center;}
+#cal #cm .cell .so{font: bold 16px arial;}
+#cal #bm{line-height: 24px; height: 24px; padding: 0 13px 0 0; text-align: right;}
+#cal #bm a{color: #7977ce;}
+#cal #fd{line-height: 21px; position: absolute; display: none; width: 150px; padding: 10px; border: 1px solid #dddddf; background: #feffcd;}
+#cal #fd b{font-weight: normal; color: #c60a00;}
+.buttonData{padding: 0;position: absolute;top: 0;right: 0;}
+/*END DataJs*/

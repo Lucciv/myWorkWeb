@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="gb2312">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Gov Tabs</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="static/css/content.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="govcontent">
+    <!-- Tab -->
+    <div class="govTabBox">
+      <div class="tab">
+        <ul class="menu">
+          <li class="show">
+            选项卡1
+            <span class="tabLine"></span>
+          </li>
+          <li class="hide">
+            选项卡2
+            <span class="tabLine"></span>
+          </li>
+          <li class="hide">
+            选项卡3
+            <span class="tabLine"></span>
+          </li>
+        </ul>
+        <div>
+          <ul class="ul-show">
+            <li>
+              内容1
+            </li>
+          </ul>
+          <ul class="ul-hide">
+            <li>
+              内容2
+            </li>
+          </ul>
+          <ul class="ul-hide">
+            <li>
+              内容3
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- EndTab -->
+  </div>
+
+  <!-- Tab Js -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+  $(document).ready(function() {
+      // 通用菜单切换
+      $(".tab > ul.menu > li").mouseover(function() {
+          $(this).parent().find("li.show").addClass("hide").removeClass("show");
+          $(this).addClass("show").removeClass("hide");
+          var parentsEl = $(this).parents(".tab");
+          parentsEl.find("div > ul.ul-show").addClass("ul-hide").removeClass("ul-show");
+          var ary = parentsEl.find("ul.menu > li");
+          parentsEl.find("div > ul:eq(" + $.inArray(this, ary) + ")").addClass("ul-show").removeClass("ul-hide");
+      });
+
+  });
+  </script>
+</body>
+</html>

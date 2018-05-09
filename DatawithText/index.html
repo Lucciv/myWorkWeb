@@ -1,0 +1,2791 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Examples</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="static/css/css.css" rel="stylesheet">
+</head>
+<body>
+    <!--日程表-->
+    <div class="calandar">
+      <div class="cal_left">
+        <div class="jflatTimeline">
+          <div class="calandar_left">
+            <div class="year"><img src="static/images/year.jpg" align="left"></div>
+            <div class="mouth" style="position: relative;">
+              <div id="month_select">9月</div>
+              <div class="select_month_box">
+                <ul>
+                  <li>8月</li>
+                  <li>9月</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="table">
+              <ul>
+                <li>一</li>
+                <li>二</li>
+                <li>三</li>
+                <li>四</li>
+                <li>五</li>
+                <li style="color:#FF0000">六</li>
+                <li style="color:#FF0000">日</li>
+              </ul>
+            </div>
+
+            <div class="table_con">
+              <ul class="table_con_01 undis">
+                <li class="Current four_1_01" onClick="con_mouseover(1,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">1</p>
+
+                  <font style="cursor: pointer;">建军节</font> </li>
+
+                <li class="four_1_01" onClick="con_mouseover(2,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">2</p>
+
+                  <font style="cursor: pointer;">三十</font> </li>
+
+                <li class="four_1_03" onClick="con_mouseover(3,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">3</p>
+
+                  <font style="cursor: pointer;">初一</font> </li>
+
+                <li class="four_1_04" onClick="con_mouseover(4,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">4</p>
+
+                  <font style="cursor: pointer;">初二</font> </li>
+
+                <li class="four_1_05" onClick="con_mouseover(5,8,31)" >
+
+                  <p style="cursor: pointer;color:#c8cacc">5</p>
+
+                  <font style="cursor: pointer;">初三</font> </li>
+
+                <li lass="four_1_06" onClick="con_mouseover(6,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">6</p>
+
+                  <font style="cursor: pointer;">初四</font> </li>
+
+                <li class="four_1_07" onClick="con_mouseover(7,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">7</p>
+
+                  <font style="cursor: pointer;">立秋</font> </li>
+
+                <li class="four_1_08" onClick="con_mouseover(8,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">8</p>
+
+                  <font style="cursor: pointer;">初六</font> </li>
+
+                <li class="four_1_09" onClick="con_mouseover(9,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">9</p>
+
+                  <font style="cursor: pointer;">七夕节</font> </li>
+
+                <li class="four_1_10" onClick="con_mouseover(10,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">10</p>
+
+                  <font style="cursor: pointer;">初八</font> </li>
+
+                <li class="four_1_11" onClick="con_mouseover(11,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">11</p>
+
+                  <font style="cursor: pointer;">初九</font> </li>
+
+                <li class="four_1_12" onClick="con_mouseover(12,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">12</p>
+
+                  <font style="cursor: pointer;">初十</font> </li>
+
+                <li class="four_1_13" onClick="con_mouseover(13,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">13</p>
+
+                  <font style="cursor: pointer;">十一</font> </li>
+
+                <li class="four_1_14" onClick="con_mouseover(14,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">14</p>
+
+                  <font style="cursor: pointer;">十二</font> </li>
+
+                <li class="four_1_15" onClick="con_mouseover(15,8,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">15</p>
+
+                  <font style="cursor: pointer;">十三</font> </li>
+
+                <li class="four_1_16" onClick="con_mouseover(16,8,31)">
+
+                  <p style="cursor: pointer;">16</p>
+
+                  <font style="cursor: pointer;">十四</font> </li>
+
+                <li class="four_1_17" onClick="con_mouseover(17,8,31)">
+
+                  <p style="cursor: pointer;">17</p>
+
+                  <font style="cursor: pointer; color:#FF0000">中元节</font> </li>
+
+                <li class="four_1_18" onClick="con_mouseover(18,8,31)">
+
+                  <p style="cursor: pointer;">18</p>
+
+                  <font style="cursor: pointer;">十六</font> </li>
+
+                <li class="four_1_19" onClick="con_mouseover(19,8,31)">
+
+                  <p style="cursor: pointer;">19</p>
+
+                  <font style="cursor: pointer;">十七</font> </li>
+
+                <li class="four_1_20" onClick="con_mouseover(20,8,31)">
+
+                  <p style="cursor: pointer; color:#FF0000">20</p>
+
+                  <font style="cursor: pointer;">十八</font> </li>
+
+                <li class="four_1_21" onClick="con_mouseover(21,8,31)">
+
+                  <p style="cursor: pointer; color:#FF0000">21</p>
+
+                  <font style="cursor: pointer;">十九</font> </li>
+
+                <li class="four_1_22" onClick="con_mouseover(22,8,31)">
+
+                  <p style="cursor: pointer;">22</p>
+
+                  <font style="cursor: pointer;">二十</font> </li>
+
+                <li class="four_1_23" onClick="con_mouseover(23,8,31)">
+
+                  <p style="cursor: pointer;">23</p>
+
+                  <font style="cursor: pointer; color:#FF0000">处暑</font> </li>
+
+                <li class="four_1_24" onClick="con_mouseover(24,8,31)">
+
+                  <p style="cursor: pointer;">24</p>
+
+                  <font style="cursor: pointer;">廿二</font> </li>
+
+                <li class="four_1_25" onClick="con_mouseover(25,8,31)">
+
+                  <p style="cursor: pointer;">25</p>
+
+                  <font style="cursor: pointer;">廿三</font> </li>
+
+                <li class="four_1_26" onClick="con_mouseover(26,8,31)">
+
+                  <p style="cursor: pointer;">26</p>
+
+                  <font style="cursor: pointer;">廿四</font> </li>
+
+                <li class="four_1_27" onClick="con_mouseover(27,8,31)">
+
+                  <p style="cursor: pointer; color:#FF0000">27</p>
+
+                  <font style="cursor: pointer;">廿五</font> </li>
+
+                <li class="four_1_28" onClick="con_mouseover(28,8,31)">
+
+                  <p style="cursor: pointer; color:#FF0000">28</p>
+
+                  <font style="cursor: pointer;">廿六</font> </li>
+
+                <li class="four_1_29" onClick="con_mouseover(29,8,31)">
+
+                  <p style="cursor: pointer;">29</p>
+
+                  <font style="cursor: pointer;">廿七</font> </li>
+
+                <li class="four_1_30" onClick="con_mouseover(30,8,31)">
+
+                  <p style="cursor: pointer;">30</p>
+
+                  <font style="cursor: pointer;">廿八</font> </li>
+
+                <li class="four_1_31" onClick="con_mouseover(31,8,31)">
+
+                  <p style="cursor: pointer;">31</p>
+
+                  <font style="cursor: pointer;">廿九</font> </li>
+
+                <li>
+
+                  <p style="color:#c8cacc">1</p>
+
+                  <font style="color:#c8cacc">初一</font> </li>
+
+                <li>
+
+                  <p style="color:#c8cacc">2</p>
+
+                  <font style="color:#c8cacc">初二</font> </li>
+
+                <li>
+
+                  <p style="color:#c8cacc">3</p>
+
+                  <font style="color:#c8cacc">抗战胜利日</font> </li>
+
+                <li>
+
+                  <p style="color:#c8cacc">4</p>
+
+                  <font style="color:#c8cacc">初四</font> </li>
+
+              </ul>
+
+              <ul class="table_con_02 ">
+
+                <li>
+
+                  <p style="color:#c8cacc">29</p>
+
+                  <font style="color:#c8cacc">廿七</font> </li>
+
+                <li>
+
+                  <p style="color:#c8cacc">30</p>
+
+                  <font style="color:#c8cacc">廿八</font> </li>
+
+                <li>
+
+                  <p style="color:#c8cacc">31</p>
+
+                  <font style="color:#c8cacc">廿九</font> </li>
+
+                <li  class="Current four_2_01" onClick="con_mouseover(1,9,31)">
+
+                  <p style="cursor: pointer;">1</p>
+
+                  <font style="cursor: pointer;">初一</font> </li>
+
+                <li class="four_2_02" onClick="con_mouseover(2,9,31)">
+
+                  <p style="cursor: pointer;">2</p>
+
+                  <font style="cursor: pointer;">初二</font> </li>
+
+                <li class="four_2_03" onClick="con_mouseover(3,9,31)">
+
+                  <p style="cursor: pointer; color:#FF0000">3</p>
+
+                  <font style="cursor: pointer; color:#FF0000">抗战胜利日</font> </li>
+
+                <li class="four_2_04" onClick="con_mouseover(4,9,31)">
+
+                  <p style="cursor: pointer; color:#FF0000">4</p>
+
+                  <font style="cursor: pointer;">初四</font> </li>
+
+                <li class="four_2_05" onClick="con_mouseover(5,9,31)">
+
+                  <p style="cursor: pointer;">5</p>
+
+                  <font style="cursor: pointer;">初五</font> </li>
+
+                <li class="four_2_06" onClick="con_mouseover(6,9,31)">
+
+                  <p style="cursor: pointer;">6</p>
+
+                  <font style="cursor: pointer;">初六</font> </li>
+
+                <li class="four_2_07" onClick="con_mouseover(7,9,31)">
+
+                  <p style="cursor: pointer;">7</p>
+
+                  <font style="cursor: pointer; color:#FF0000">白露</font> </li>
+
+                <li class="four_2_08" onClick="con_mouseover(8,9,31)">
+
+                  <p style="cursor: pointer;">8</p>
+
+                  <font style="cursor: pointer;">初八</font> </li>
+
+                <li class="four_2_09" onClick="con_mouseover(9,9,31)">
+
+                  <p style="cursor: pointer;">9</p>
+
+                  <font style="cursor: pointer;">初九</font> </li>
+
+                <li class="four_2_10" onClick="con_mouseover(10,9,31)">
+
+                  <p style="cursor: pointer; color:#FF0000">10</p>
+
+                  <font style="cursor: pointer; color:#FF0000">教师节</font> </li>
+
+                <li class="four_2_11" onClick="con_mouseover(11,9,31)">
+
+                  <p style="cursor: pointer; color:#FF0000">11</p>
+
+                  <font style="cursor: pointer;">十一</font> </li>
+
+                <li class="four_2_12" onClick="con_mouseover(12,9,31)">
+
+                  <p style="cursor: pointer;">12</p>
+
+                  <font style="cursor: pointer;">十二</font> </li>
+
+                <li class="four_2_13" onClick="con_mouseover(13,9,31)">
+
+                  <p style="cursor: pointer;">13</p>
+
+                  <font style="cursor: pointer;">十三</font> </li>
+
+                <li class="four_2_14" onClick="con_mouseover(14,9,31)">
+
+                  <p style="cursor: pointer;">14</p>
+
+                  <font style="cursor: pointer;">十四</font> </li>
+
+                <li class="four_2_15" onClick="con_mouseover(15,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">15</p>
+
+                  <font style="cursor: pointer;color:#c8cacc">中秋节</font> </li>
+
+                <li class="four_2_16" onClick="con_mouseover(16,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">16</p>
+
+                  <font style="cursor: pointer;">十六</font> </li>
+
+                <li class="four_2_17" onClick="con_mouseover(17,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">17</p>
+
+                  <font style="cursor: pointer;">十七</font> </li>
+
+                <li class="four_2_18" onClick="con_mouseover(18,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">18</p>
+
+                  <font style="cursor: pointer;">十八</font> </li>
+
+                <li class="four_2_19" onClick="con_mouseover(19,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">19</p>
+
+                  <font style="cursor: pointer;">十九</font> </li>
+
+                <li class="four_2_20" onClick="con_mouseover(20,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">20</p>
+
+                  <font style="cursor: pointer;">二十</font> </li>
+
+                <li class="four_2_21" onClick="con_mouseover(21,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">21</p>
+
+                  <font style="cursor: pointer;">廿一</font> </li>
+
+                <li class="four_2_22" onClick="con_mouseover(22,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">22</p>
+
+                  <font style="cursor: pointer;">秋分</font> </li>
+
+                <li class="four_2_23" onClick="con_mouseover(23,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">23</p>
+
+                  <font style="cursor: pointer;">廿三</font> </li>
+
+                <li class="four_2_24" onClick="con_mouseover(24,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">24</p>
+
+                  <font style="cursor: pointer;">廿四</font> </li>
+
+                <li class="four_2_25" onClick="con_mouseover(25,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">25</p>
+
+                  <font style="cursor: pointer;">廿五</font> </li>
+
+                <li class="four_2_26" onClick="con_mouseover(26,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">26</p>
+
+                  <font style="cursor: pointer;">廿六</font> </li>
+
+                <li class="four_2_27" onClick="con_mouseover(27,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">27</p>
+
+                  <font style="cursor: pointer;">廿七</font> </li>
+
+                <li class="four_2_28" onClick="con_mouseover(28,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">28</p>
+
+                  <font style="cursor: pointer;">廿八</font> </li>
+
+                <li class="four_2_29" onClick="con_mouseover(29,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">29</p>
+
+                  <font style="cursor: pointer;">廿九</font> </li>
+
+                <li class="four_2_30" onClick="con_mouseover(30,9,31)">
+
+                  <p style="cursor: pointer;color:#c8cacc">30</p>
+
+                  <font style="cursor: pointer;">三十</font> </li>
+
+                <li>
+
+                  <p style="color:#c8cacc">1</p>
+
+                  <font style="color:#c8cacc">国庆节</font> </li>
+
+                <li>
+
+                  <p style="color:#c8cacc">2</p>
+
+                  <font style="color:#c8cacc">初二</font> </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="cal_right">
+
+            <div class="con_four_8_1">
+
+              <div class="date">2016-08-1</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_2" style="display:none;">
+
+              <div class="date">2016-08-2</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_3" style="display:none;">
+
+              <div class="date">2016-08-3</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_4" style="display:none;">
+
+              <div class="date">2016-08-4</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_5" style="display:none;">
+
+              <div class="date">2016-08-5</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_6" style="display:none;">
+
+              <div class="date">2016-08-6</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_7" style="display:none;">
+
+              <div class="date">2016-08-7</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_8" style="display:none;">
+
+              <div class="date">2016-08-8</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_9" style="display:none;">
+
+              <div class="date">2016-08-9</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_10" style="display:none;">
+
+              <div class="date">2016-08-10</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_11" style="display:none;">
+
+              <div class="date">2016-08-11</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_12" style="display:none;">
+
+              <div class="date">2016-08-12</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_13" style="display:none;">
+
+              <div class="date">2016-08-13</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_14" style="display:none;">
+
+              <div class="date">2016-08-14</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_15" style="display:none;">
+
+              <div class="date">2016-08-15</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_16" style="display:none">
+
+              <div class="date">2016-08-16</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">北京市代表团《冰山上的来客》</div>
+
+                    <span>剧目类别：歌剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">解放军代表团《筑梦边关》</div>
+
+                    <span>剧目类别：歌舞晚会</span> <span>演出剧场：中国剧院</span> <span>演出时间：19:30 </span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_17" style="display:none">
+
+              <div class="date">2016-08-17</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">开幕式文艺晚会</div>
+
+                    <span>演出剧场：人民大会堂 </span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">北京市代表团《冰山上的来客》</div>
+
+                    <span>剧目类别：歌剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">解放军代表团《筑梦边关》</div>
+
+                    <span>剧目类别：歌舞晚会</span> <span>演出剧场：中国剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">重庆市代表团《追寻香格里拉》</div>
+
+                    <span>剧目类别：芭蕾舞剧</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">四川省代表团《彝红》</div>
+
+                    <span>剧目类别：歌剧</span> <span>演出剧场：天桥艺术中心（大剧场）</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">天津市代表团《寻找海力布》</div>
+
+                    <span>剧目类别：音乐神话剧</span> <span>演出剧场：天桥艺术中心（中剧场）</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_18" style="display:none">
+
+              <div class="date">2016-08-18</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">开幕式文艺晚会</div>
+
+                    <span>演出剧场：人民大会堂 </span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">重庆市代表团《追寻香格里拉》</div>
+
+                    <span>剧目类别：芭蕾舞剧</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">四川省代表团《彝红》</div>
+
+                    <span>剧目类别：歌剧</span> <span>演出剧场：天桥艺术中心（大剧场）</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">天津市代表团《寻找海力布》</div>
+
+                    <span>剧目类别：音乐神话剧</span> <span>演出剧场：天桥艺术中心（中剧场）</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">江苏省代表团《英雄•玛纳斯》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_19" style="display:none">
+
+              <div class="date">2016-08-19</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">江苏省代表团《英雄•玛纳斯》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">新疆维吾尔自治区代表团《木卡姆印象》</div>
+
+                    <span>剧目类别：音舞诗</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_20" style="display:none">
+
+              <div class="date">2016-08-20</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">新疆维吾尔自治区代表团《木卡姆印象》</div>
+
+                    <span>剧目类别：音舞诗</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">广西壮族自治区代表团《花山》</div>
+
+                    <span>剧目类别：音乐舞蹈诗</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">云南省代表团《刀安仁》</div>
+
+                    <span>剧目类别：傣剧</span> <span>演出剧场：民族文化宫大剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_21" style="display:none">
+
+              <div class="date">2016-08-21</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">云南省代表团《刀安仁》</div>
+
+                    <span>剧目类别：傣剧</span> <span>演出剧场：民族文化宫大剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">广西壮族自治区代表团《花山》</div>
+
+                    <span>剧目类别：音乐舞蹈诗</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">新疆生产建设兵团代表团《戈壁青春》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：天桥剧场 </span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">上海市代表团《彩虹》</div>
+
+                    <span>剧目类别：儿童剧</span> <span>演出剧场：天桥艺术中心（中剧场）</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_22" style="display:none">
+
+              <div class="date">2016-08-22</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">新疆生产建设兵团代表团《戈壁青春》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：天桥剧场 </span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">上海市代表团《彩虹》</div>
+
+                    <span>剧目类别：儿童剧</span> <span>演出剧场：天桥艺术中心（中剧场）</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">黑龙江省代表团《乌苏里传歌》</div>
+
+                    <span>剧目类别：舞蹈诗</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_23" style="display:none">
+
+              <div class="date">2016-08-23</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">黑龙江省代表团《乌苏里传歌》</div>
+
+                    <span>剧目类别：舞蹈诗</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">浙江省代表团《畲娘》</div>
+
+                    <span>剧目类别：音乐剧</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_24" style="display:none">
+
+              <div class="date">2016-08-24</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">浙江省代表团《畲娘》</div>
+
+                    <span>剧目类别：音乐剧</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">香港特别行政区代表团《缘起敦煌》</div>
+
+                    <span>剧目类别：舞蹈诗</span> <span>演出剧场：民族文化宫大剧院 </span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">山西省代表团《生命如歌》</div>
+
+                    <span>剧目类别：话剧</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">西藏自治区代表团《六弦情缘》</div>
+
+                    <span>剧目类别：藏戏</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_25" style="display:none">
+
+              <div class="date">2016-08-25</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">香港特别行政区代表团《缘起敦煌》</div>
+
+                    <span>剧目类别：舞蹈诗</span> <span>演出剧场：民族文化宫大剧院 </span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">山西省代表团《生命如歌》</div>
+
+                    <span>剧目类别：话剧</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">西藏自治区代表团《六弦情缘》</div>
+
+                    <span>剧目类别：藏戏</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">云南省代表团《梦幻彩云南》</div>
+
+                    <span>剧目类别：歌舞晚会</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_26" style="display:none">
+
+              <div class="date">2016-08-26</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">云南省代表团《梦幻彩云南》</div>
+
+                    <span>剧目类别：歌舞晚会</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">江西省代表团《热血山哈》</div>
+
+                    <span>剧目类别：畲歌戏</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_27" style="display:none">
+
+              <div class="date">2016-08-27</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">江西省代表团《热血山哈》</div>
+
+                    <span>剧目类别：畲歌戏</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">河北省代表团《六世班禅》</div>
+
+                    <span>剧目类别：河北梆子</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_28" style="display:none">
+
+              <div class="date">2016-08-28</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">河北省代表团《六世班禅》</div>
+
+                    <span>剧目类别：河北梆子</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">青海省代表团《彩虹儿女》</div>
+
+                    <span>剧目类别：歌舞剧</span> <span>演出剧场：民族文化宫大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">辽宁省代表团《祖传秘方》</div>
+
+                    <span>剧目类别：话剧</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">陕西省代表团《丝路长城》</div>
+
+                    <span>剧目类别：秦腔</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_29" style="display:none">
+
+              <div class="date">2016-08-29</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">青海省代表团《彩虹儿女》</div>
+
+                    <span>剧目类别：歌舞剧</span> <span>演出剧场：民族文化宫大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">辽宁省代表团《祖传秘方》</div>
+
+                    <span>剧目类别：话剧</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">陕西省代表团《丝路长城》</div>
+
+                    <span>剧目类别：秦腔</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">宁夏回族自治区代表团《九州花儿美》</div>
+
+                    <span>剧目类别：舞蹈诗</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_30" style="display:none">
+
+              <div class="date">2016-08-30</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">宁夏回族自治区代表团《九州花儿美》</div>
+
+                    <span>剧目类别：舞蹈诗</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">吉林省代表团《阿里郎花》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_8_31" style="display:none">
+
+              <div class="date">2016-08-31</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">吉林省代表团《阿里郎花》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">河南省代表团《蔡文姬》</div>
+
+                    <span>剧目类别：歌剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">福建省代表团《山哈魂》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_1" style="display: none;">
+
+              <div class="date">2016-09-1</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">河南省代表团《蔡文姬》</div>
+
+                    <span>剧目类别：歌剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">福建省代表团《山哈魂》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">湖南省代表团《凤凰》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">广东省代表团《遥远有多远》</div>
+
+                    <span>剧目类别：话剧</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_2" style="display:none;">
+
+              <div class="date">2016-09-2</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">湖南省代表团《凤凰》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">广东省代表团《遥远有多远》</div>
+
+                    <span>剧目类别：话剧</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">海南省代表团《黎族家园》</div>
+
+                    <span>剧目类别：歌舞诗</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_3" style="display:none">
+
+              <div class="date">2016-09-3</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">海南省代表团《黎族家园》</div>
+
+                    <span>剧目类别：歌舞诗</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">贵州省代表团《嘎老》</div>
+
+                    <span>剧目类别：音乐剧</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_4" style="display:none">
+
+              <div class="date">2016-09-4</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">贵州省代表团《嘎老》</div>
+
+                    <span>剧目类别：音乐剧</span> <span>演出剧场：民族剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">西藏自治区代表团《太阳的女儿》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">青海省代表团《松赞干布》</div>
+
+                    <span>剧目类别：藏戏</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_5" style="display:none">
+
+              <div class="date">2016-09-5</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">西藏自治区代表团《太阳的女儿》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">青海省代表团《松赞干布》</div>
+
+                    <span>剧目类别：藏戏</span> <span>演出剧场：梅兰芳大剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">甘肃省代表团《裕固族姑娘就是我》</div>
+
+                    <span>剧目类别：歌舞剧</span> <span>演出剧场：民族文化宫大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">宁夏回族自治区代表团《丝路天歌》</div>
+
+                    <span>剧目类别：话剧</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">安徽省代表团《绿皮火车》</div>
+
+                    <span>剧目类别：泗州戏</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_6" style="display:none">
+
+              <div class="date">2016-09-6</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">甘肃省代表团《裕固族姑娘就是我》</div>
+
+                    <span>剧目类别：歌舞剧</span> <span>演出剧场：民族文化宫大剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">宁夏回族自治区代表团《丝路天歌》</div>
+
+                    <span>剧目类别：话剧</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">安徽省代表团《绿皮火车》</div>
+
+                    <span>剧目类别：泗州戏</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">湖北省代表团《黄四姐》</div>
+
+                    <span>剧目类别：音乐剧</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_7" style="display:none">
+
+              <div class="date">2016-09-7</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">湖北省代表团《黄四姐》</div>
+
+                    <span>剧目类别：音乐剧</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">北京市代表团《多彩中国》</div>
+
+                    <span>剧目类别：音乐会</span> <span>演出剧场：世纪剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_8" style="display:none">
+
+              <div class="date">2016-09-8</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">北京市代表团《多彩中国》</div>
+
+                    <span>剧目类别：音乐会</span> <span>演出剧场：世纪剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">新疆维吾尔自治区代表团《情暖天山》</div>
+
+                    <span>剧目类别：歌舞剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_9" style="display:none">
+
+              <div class="date">2016-09-9</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">新疆维吾尔自治区代表团《情暖天山》</div>
+
+                    <span>剧目类别：歌舞剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">山东省代表团《兰桂飘香》</div>
+
+                    <span>剧目类别：吕剧</span> <span>演出剧场：民族文化宫大剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">贵州省代表团《巫卡调恰一一外婆的歌谣》</div>
+
+                    <span>剧目类别：舞蹈诗</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">广西壮族自治区代表团《冯子材》</div>
+
+                    <span>剧目类别：壮剧</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_10" style="display:none">
+
+              <div class="date">2016-09-10</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">山东省代表团《兰桂飘香》</div>
+
+                    <span>剧目类别：吕剧</span> <span>演出剧场：民族文化宫大剧院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">贵州省代表团《巫卡调恰一一外婆的歌谣》</div>
+
+                    <span>剧目类别：舞蹈诗</span> <span>演出剧场：国家话剧院剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">广西壮族自治区代表团《冯子材》</div>
+
+                    <span>剧目类别：壮剧</span> <span>演出剧场：长安大戏院</span> <span>演出时间：19:30</span> <span>票价：50元、80元、120元、150元</span>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">内蒙古自治区代表团《马可•波罗传奇》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_11" style="display:none">
+
+              <div class="date">2016-09-11</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">内蒙古自治区代表团《马可•波罗传奇》</div>
+
+                    <span>剧目类别：舞剧</span> <span>演出剧场：天桥剧场</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_12" style="display:none">
+
+              <div class="date">2016-09-12</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">内蒙古自治区代表团《草原上的乌兰牧骑》</div>
+
+                    <span>剧目类别：歌舞剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_13" style="display:none">
+
+              <div class="date">2016-09-13</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">内蒙古自治区代表团《草原上的乌兰牧骑》</div>
+
+                    <span>剧目类别：歌舞剧</span> <span>演出剧场：保利剧院</span> <span>演出时间：19:30</span> <span>票价：80元、150元、200元、280元</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_14" style="display:none">
+
+              <div class="date">2016-09-14</div>
+
+              <ul >
+
+                <li>
+
+                  <dl>
+
+                    <div class="db">闭幕式暨颁奖晚会</div>
+
+                    <span>演出剧场：京西宾馆礼堂</span>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_15" style="display:none">
+
+              <div class="date">2016-09-15</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_16" style="display:none">
+
+              <div class="date">2016-09-16</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_17" style="display:none">
+
+              <div class="date">2016-09-17</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_18" style="display:none">
+
+              <div class="date">2016-09-18</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_19" style="display:none">
+
+              <div class="date">2016-09-19</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_20" style="display:none">
+
+              <div class="date">2016-09-20</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_21" style="display:none">
+
+              <div class="date">2016-09-21</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_22" style="display:none">
+
+              <div class="date">2016-09-22</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_23" style="display:none">
+
+              <div class="date">2016-09-23</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_24" style="display:none">
+
+              <div class="date">2016-09-24</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_25" style="display:none">
+
+              <div class="date">2016-09-25</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_26" style="display:none">
+
+              <div class="date">2016-09-26</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_27" style="display:none">
+
+              <div class="date">2016-09-27</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_28" style="display:none">
+
+              <div class="date">2016-09-28</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_29" style="display:none">
+
+              <div class="date">2016-09-29</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="con_four_9_30" style="display:none">
+
+              <div class="date">2016-09-30</div>
+
+              <ul>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index4.html" target="_blank"><img src="static/images/haibao2.jpg" width="214" height="276" border=1 ></A> </div>
+
+                  </dl>
+
+                </li>
+
+                <li>
+
+                  <dl>
+
+                    <div class="db"><A href="/fdxg/index3.html" target="_blank"><img src="static/images/haibao1.jpg" width="214" height="276" border=1></A></div>
+
+                  </dl>
+
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--日程表  结束-->
+
+    <!-- 日程表Js -->
+    <script type="text/javascript" src="static/js/jquery.min.js"></script>
+    <script src="static/js/jquery.DB_rotateRollingBanner.min.js" type="text/javascript"></script>
+    <script src="static/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+    <script src="static/js/dajs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+            function aa() {
+                var hei = $(".pic_banner").height() + 50;
+                var w = window.outerWidth;
+                $(".banner").width(w);
+                $(".banner").height(hei);
+                window.location.reload();
+            }
+    </script>
+</body>
