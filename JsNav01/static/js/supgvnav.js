@@ -1,5 +1,5 @@
 var supnav = document.getElementById("supnav");
-var nav = document.getElementById("nav");
+var nav = document.getElementById("ctnavbox");
 var btns = document.getElementsByTagName("li");
 var subnavs = nav.getElementsByTagName("div");
 var paddingbottom = 20;

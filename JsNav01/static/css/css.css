@@ -9,11 +9,11 @@ body {
    text-align: center;
    font-size: 12px;
 }
-#content{margin: 0 auto; width: 600px;}
-#content #nav{height: 32px; background-color: #464749;}
-#content #nav ul{list-style: none;}
-#content #nav ul li{float: left; width: 100px; line-height: 32px; position: relative;}
-#nav div{width: 100px; position: absolute; left: 0px; padding-bottom: 0px; float: left; height: 0; overflow: hidden; background-color: #23abf1;}
-#content #nav li .a{text-decoration: none; color: #FFFFFF; line-height: 32px; display: block; border-right-width: 1px; border-right-style: solid; border-right-color: #393A3C;}
-#nav div a{text-decoration: none; color: #FFFFFF; line-height: 32px; display: block;}
-#nav div a:hover{background-color: #0C7DBA;}
+#ctnav{margin: 0 auto; width: 600px;}
+#ctnav #ctnavbox{height: 32px; background-color: #464749;}
+#ctnav #ctnavbox ul{list-style: none;}
+#ctnav #ctnavbox ul li{float: left; width: 100px; line-height: 32px; position: relative;}
+#ctnavbox div{width: 100px; position: absolute; left: 0px; padding-bottom: 0px; float: left; height: 0; overflow: hidden; background-color: #23abf1;}
+#ctnav #ctnavbox li .ctnava{text-decoration: none; color: #FFFFFF; line-height: 32px; display: block; border-right-width: 1px; border-right-style: solid; border-right-color: #393A3C;}
+#ctnavbox div a{text-decoration: none; color: #FFFFFF; line-height: 32px; display: block;}
+#ctnavbox div a:hover{background-color: #0C7DBA;}

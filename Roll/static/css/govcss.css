@@ -20,26 +20,11 @@ iframe{margin: 0;padding: 0;display: block;}
 .mb6{margin-bottom: 60px;}
 /*END my css reset*/
 
-/*Index Content*/
-.govcontent{width: 100%; overflow: hidden;}
-.govmain{width: 1000px; overflow: hidden; margin: 0 auto;}
-.govbox{width: 100%;overflow: hidden;}
-/*END Index Content*/
-
-/*Header*/
-.govheaderContent{width: 100%; overflow: hidden;}
-.govheaderMain{width: 1000px; overflow: hidden; margin: 0 auto;}
-/*END Header*/
-
-/*Footer*/
-.govfooterContent{width: 100%; overflow: hidden;}
-.govfooterMain{width: 1000px; overflow: hidden; margin: 0 auto;}
-/*END Footer*/
-
-/*概览*/
-.govglBox{}
-/*END概览*/
-
-/*细览*/
-.govxlBox{}
-/*END细览*/
+.gov-rollbox { line-height: 50px; overflow: hidden; width: 900px; height: 50px; margin: 0 auto; background-color: skyblue;}
+.gov-rollmain { overflow: hidden; }
+.gov-rollqimo { width: 8000%; }
+.gov-rollmain .gov-rollqimo div { float: left; }
+.gov-rollmain .gov-rollqimo ul { float: left; overflow: hidden; zoom: 1; height: 50px; }
+.gov-rollmain .gov-rollqimo ul li { line-height: 50px; float: left; list-style: none; }
+.gov-rollmain li a { margin-right: 10px; padding-right: 20px; color: #444; }
+.d1 { width: 6px; height: 6px; margin-top: 22px; margin-right: 15px; vertical-align: middle; background: url(../images/d1.jpg) left center; }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="box"></div>
+</body>
+<script src="js/picMove.js"></script>
+<script>
+    $(document).ready(function () {
+        var list = [{
+            imgUrl: 'img/a1.png',
+            href: '#'
+            }, {
+            imgUrl: 'img/a2.png',
+            href: '#'
+            }, {
+            imgUrl: 'img/a3.png',
+            href: '#'
+            }, {
+            imgUrl: 'img/a4.png',
+            href: '#'
+            }, {
+            imgUrl: 'img/a5.png',
+            href: '#'
+            }, {
+            imgUrl: 'img/a6.png',
+            href: '#'
+            }]
+        $('#box').fade({
+            url: list,
+            boxWid:1000,
+            boxHei:400
+        }).css({
+            margin:'0 auto'
+        })
+    })
+</script>
+
+</html>

@@ -1,7 +1,7 @@
 @charset "gb2312";
 /*css reset*/
-body{margin: 0 auto; background-color: #fff;font-family: "Microsoft YaHei UI","Œ¢»Ì—≈∫⁄",\5FAE\8F6F\96C5\9ED1;font-size: 14px;color: #333;}
-a,a:link,a:visited,a:hover{text-decoration: none;font-family: "Microsoft YaHei UI","Œ¢»Ì—≈∫⁄",\5FAE\8F6F\96C5\9ED1;font-size: 14px;color: #333;}
+body{margin: 0 auto; background-color: #fff;font-family: "Microsoft YaHei UI","Œ¢»Ì—≈∫⁄",\5FAE\8F6F\96C5\9ED1;font-size: 16px;color: #333;}
+a,a:link,a:visited,a:hover{text-decoration: none;font-family: "Microsoft YaHei UI","Œ¢»Ì—≈∫⁄",\5FAE\8F6F\96C5\9ED1;font-size: 16px;color: #333;}
 ul,li,p,a{margin: 0;padding: 0;list-style: none;}
 img{border:none;display: inline-block;}
 .fl{float: left;}
@@ -9,8 +9,8 @@ img{border:none;display: inline-block;}
 /*END css reset*/
 
 /*my css reset*/
+h1,h2,h3,h4,h5,p,a,span{margin: 0;padding: 0;font-weight: normal;font-size: 16px;color: #333;}
 iframe{margin: 0;padding: 0;display: block;}
-h1,h2,h3,h4,h5,p,a,span{margin: 0;padding: 0;font-weight: normal;font-size: 14px;color: #333;}
 .mbNo{margin-bottom: 0;}
 .mb1{margin-bottom: 10px;}
 .mb2{margin-bottom: 20px;}
@@ -25,3 +25,21 @@ h1,h2,h3,h4,h5,p,a,span{margin: 0;padding: 0;font-weight: normal;font-size: 14px
 .govmain{width: 1000px; overflow: hidden; margin: 0 auto;}
 .govbox{width: 100%;overflow: hidden;}
 /*END Index Content*/
+
+/*Header*/
+.govheaderContent{width: 100%; overflow: hidden;}
+.govheaderMain{width: 1000px; overflow: hidden; margin: 0 auto;}
+/*END Header*/
+
+/*Footer*/
+.govfooterContent{width: 100%; overflow: hidden;}
+.govfooterMain{width: 1000px; overflow: hidden; margin: 0 auto;}
+/*END Footer*/
+
+/*∏≈¿¿*/
+.govglBox{}
+/*END∏≈¿¿*/
+
+/*œ∏¿¿*/
+.govxlBox{}
+/*ENDœ∏¿¿*/
