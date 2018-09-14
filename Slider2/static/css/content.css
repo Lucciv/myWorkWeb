@@ -20,7 +20,7 @@ iframe{margin: 0;padding: 0;display: block;}
 .content{width: 100%; overflow: hidden;}
 .main{width: 1000px; overflow: hidden; margin: 0 auto;}
 
-/*Slider2*/
+/*Slide*/
 .sectionFocuspic{width:600px;height:350px;overflow:hidden;position:relative;margin: 0 auto;}
 .sectionFocuspic ul li{width: 100%;position:absolute;top:0;left:600px;}
 .itemTitleBg{width: 100%;height:50px;background-color:rgba(0,0,0,0.7);position:absolute;bottom:0px;left:0px;}
@@ -33,4 +33,4 @@ iframe{margin: 0;padding: 0;display: block;}
 .sectionFocuspic .conPn .prev:hover{background-image: url(../images/button_prew_jh.png);}
 .sectionFocuspic .conPn .next{right:5px;background-image: url(../images/button_next.png);background-repeat: no-repeat;background-position: 10px 0;}
 .sectionFocuspic .conPn .next:hover{background-image: url(../images/button_next_jh.png);}
-/*END Slider2*/
+/*END Slide*/

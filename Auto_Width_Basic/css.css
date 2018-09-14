@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0 auto;}
+
+.ra{ border-radius:5px; behavior: url(ie-css3.htc);}
+.d1{ margin:0 50px; background-color:#900; min-width:1000px; height:200px; position:relative; z-index:-1;}
+
+.m1{ width:200px; height:200px; background-color:#090; float:left;}
+.m2{ position:absolute; right:0; top:0; left:200px; background-color:#09F; height:200px;}
+
+.m3{ position:absolute; left:0; top:0; right:200px; height:200px; background-color:#00F;}
+.m4{ float:right; width:200px; height:200px; background-color:#639;}
+
+.m5{ position:absolute; left:0; right:65%; height:200px; background-color:#990;}
+.m6{ position:absolute; left:35%; right:35%; height:200px; background-color:#939;}
+.m7{ position:absolute; left:65%; right:0; height:200px; background-color:#3FF;}
