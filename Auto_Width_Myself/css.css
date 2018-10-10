@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0 auto;}
+
+/*float left*/
+/*self adaption*/
+.gov_mbox { position: relative; z-index: -1; min-width: 1000px; height: 200px; margin: 0 50px; background-color: #900; }
+.gov_name_leftbox { float: left; width: 300px; height: 200px; background-color: #090; }
+.gov_name_rightbox { position: absolute; top: 0; right: 0; left: 300px; height: 200px; background-color: #09f; }
+/*END self adaption*/
+
+/*float right*/
+/*self adaption*/
+.gov_mbox { position: relative; z-index: -1; min-width: 1000px; height: 200px; margin: 0 50px; background-color: #900; }
+.gov_leftbox2 { position: absolute; top: 0; right: 200px; left: 0; height: 200px; background-color: #00f; }
+.gov_rightbox2 { float: right; width: 200px; height: 200px; background-color: #639; }
+/*END self adaption*/
+
+/*3 self adaption*/
+.gov_mbox { position: relative; z-index: -1; min-width: 1000px; height: 200px; margin: 0 50px; background-color: #900; }
+.gov_leftbox3 { position: absolute; left: 0; right: 75%; height: 200px; background-color: #996; }
+.gov_middlebox3 { position: absolute; left: 25%; right: 35%; height: 200px; background-color: #330; }
+.gov_rightbox3 { position: absolute; left: 65%; right: 0; height: 200px; background-color: #9cf; }
+/*END 3 self adaption*/
+
+/*4 self adaption*/
+.gov_mbox { position: relative; z-index: -1; min-width: 1000px; height: 200px; margin: 0 50px; background-color: #900; }
+.gov_mmbox{position: absolute;height: 200px;}
+.mm1 { right: 65%; left: 0; background-color: #990; }
+.mm2 { right: 50%; left: 35%;background-color: #939; }
+.mm3 { right: 15%; left: 50%;background-color: #3ff; }
+.mm4 { right: 0; left: 85%;background-color: #666; }
+/*END 4 self adaption*/
