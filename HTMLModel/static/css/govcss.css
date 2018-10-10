@@ -126,10 +126,23 @@ h1, h2, h3, h4, h5, p, a, span { margin: 0; padding: 0; font-weight: normal; fon
 .gov_llpic{width: 170px;height: 279px;}
 .gov_linkpic{width: 170px;height: 89px;background-color: #f1f1f1;display: block;margin-bottom: 5px;}
 .gov_linkpic:hover{width: 168px;height: 87px;background-color: #f2f6f8;display: block;border:1px solid #cfe4ee;}
-.gov_linkpic img{display: block;margin: 0 auto;margin-bottom: 8px;padding-top: 14px;}
+.gov_linkpic img{display: block;margin: 0 auto;margin-bottom: 8px;padding-top: 14px;width: 30px;height: 30px;}
 .gov_linkpic_text{font-size: 16px;color: #435360;text-align: center;display: block;}
 
 /*Select box*/
 .gov_footer_selectbox { width: 948px; height: 82px; }
 select.gov_footer_select { font-size: 16px; height: 29px; margin-top: 30px; margin-right: 12px; padding-left: 5px; color: #3d3d3d; border: 1px solid #d4d4d4; border-radius: 2px; background-color: #fff; }
 /*END Select box*/
+
+/*== GovPicBox2 ==*/
+.gov_piclbox { width: 390px; height: 80px; border: 1px solid #555; margin: 0 auto;}
+.gov_piclbox .gov_pic_link { font-size: 14px; display: block; float: left; width: 130px; height: 35px; padding-top: 45px; color: #3a6eba; text-align: center;}
+.nobor { border: none; }
+.gov_piclbox .gov_pic_link:hover { color: #fff; background-color: #3a6eba; }
+.gov_pic_li1 { background: url(../images/icon1.png) no-repeat; background-position: center 16px; }
+.gov_pic_li1:hover { background: url(../images/icon1jh.png) no-repeat; background-position: center 16px; }
+.gov_pic_li2 { background: url(../images/icon2.png) no-repeat; background-position: center 16px; }
+.gov_pic_li2:hover { background: url(../images/icon2jh.png) no-repeat; background-position: center 16px; }
+.gov_pic_li3 { background: url(../images/icon3.png) no-repeat; background-position: center 16px; }
+.gov_pic_li3:hover { background: url(../images/icon3jh.png) no-repeat; background-position: center 16px; }
+/*== END GovPicBox2 ==*/
