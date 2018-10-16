@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, p, a, span { margin: 0; padding: 0; font-weight: normal; fon
 
 /*== GovSearch ==*/
 .gov-search-box { width: 325px; height: 36px; background-color: skyblue; position: relative; float: left; }
-.gov-search-box input[type="text"] { width: 241px; height: 32px; border: 1px solid #c0c3ca; float: left; }
+.gov-search-box input[type="text"] { width: 241px; height: 32px; border: 1px solid #c0c3ca; float: left; padding-left: 10px; font-size: 14px; }
 .gov-search-box input[type="button"] { width: 83px; height: 36px; border: none; position: absolute; top: 0; right: 0; color: #fff; font-size: 14px; cursor: pointer; background-color: #2d2f93; }
 /*== END GovSearch==*/
 
